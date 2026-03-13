@@ -30,7 +30,8 @@ def main(page: ft.Page):
         page.clean()
 
         global contenido
-        contenido = ft.Text("Pantalla Inicio", size=30)
+        contenido = ft.Text("Bienvenido al sistema", size=30)
+        contenido = ft.Text("has iniciado sesion correctamente", size=15)
 
         page.add(
             ft.Column(
