@@ -31,7 +31,8 @@ def main(page: ft.Page):
 
         global contenido
         contenido = ft.Text("Bienvenido al sistema", size=30)
-        contenido = ft.Text("has iniciado sesion correctamente", size=15)
+
+        
 
         page.add(
             ft.Column(
